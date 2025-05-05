@@ -4,14 +4,17 @@ import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerJoinEvent;
 import cn.nukkit.item.Item;
-import cn.nukkit.item.ItemID;
+import cn.nukkit.item.enchantment.Enchantment;
 
 public class JoinListener implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        var item = Item.get(ItemID.DIAMOND);
-        event.getPlayer().getInventory().addItem(item);
+        event.getPlayer().getInventory().clearAll();
+        var pickaxe = Item.get(ItemObsidianPickaxe.ID);
+        var enchantment = Enchantment.getEnchantment(EnchantmentTest.ID);
+        pickaxe.addEnchantment(enchantment);
+        event.getPlayer().getInventory().addItem(pickaxe);
     }
 
 }

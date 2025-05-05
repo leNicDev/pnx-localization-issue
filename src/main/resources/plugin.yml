@@ -1,0 +1,9 @@
+name: Localization
+main: dev.lenic.localization.TestPlugin
+version: "1.0.0"
+api: "2.0.0"
+load: POSTWORLD
+author: deinCraft
+authors: ["leNicDev"]
+description: The Prison plugin
+website: https://deincraft.bz/

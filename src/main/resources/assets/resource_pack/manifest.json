@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Localization test",
+    "name": "Localization",
+    "uuid": "946a600c-cf04-4dd8-a619-c59017e5cb74",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "Localization test",
+      "type": "resources",
+      "uuid": "3ad2b279-6b04-4668-9548-ec37baaf8ba8",
+      "version": [1, 0, 0]
+    }
+  ]
+}

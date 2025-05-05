@@ -3,7 +3,7 @@
   "header": {
     "description": "Localization test",
     "name": "Localization",
-    "uuid": "946a600c-cf04-4dd8-a619-c59017e5cb74",
+    "uuid": "9aa8632f-72c9-4e60-843d-49b593b9c63b",
     "version": [0, 0, 1],
     "min_engine_version": [1, 20, 30]
   },
@@ -11,8 +11,8 @@
     {
       "description": "Localization test",
       "type": "resources",
-      "uuid": "3ad2b279-6b04-4668-9548-ec37baaf8ba8",
-      "version": [1, 0, 0]
+      "uuid": "65118452-76b2-4232-b968-8637d5c0cc99",
+      "version": [0, 0, 1]
     }
   ]
 }
